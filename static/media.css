@@ -1,0 +1,113 @@
+.container {background-color: rgb(221 221 223);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+    height: 6.25rem;
+    font-size: 1.25rem;
+    
+    
+    }  
+    
+    
+    .container li  { list-style-type: none;  
+        float: left;
+        justify-content: center;
+        text-decoration: none;
+        padding: 1rem;
+        
+    position: relative;
+    margin: 0rem;
+    color: black;
+    
+    transition-property: color,  ;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-out;
+        cursor: pointer;
+        border-radius:  1.875rem;
+        padding-right: 0.9375rem;
+    }
+    
+    .logo{ height: 2rem;
+    position: relative;
+ bottom: 0.2rem;
+}
+    .container li:hover{ 
+        color: rgb(43, 23, 160);
+      }
+    body{margin: 0px;
+    }
+
+    #welcome { 
+        font-size: 6.4375rem;
+ font-family: 'Pacifico' ; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ top: 1.25rem;
+
+    }
+
+
+.box1{
+    font-size: 1rem;
+}
+
+.footer{ font-size: 1.25rem;
+display: flex;
+justify-content: flex-start;
+position: relative;
+top: 15rem;
+background-color: #000000a8;
+height: 9.375rem;
+color: white;
+font-family: 'Baloo Bhaijaan 2';
+height: 4rem;
+}
+#paragraph { font-size: 1rem;
+font-family: 'Baloo Bhaijaan 2' ; }
+
+#hidebtn{ 
+    font-family: 'Baloo Bhaijaan 2' ;
+    padding: 0.4rem;
+    background-color: red;
+    color: white;
+ }
+#surprise { background-color: blue ;
+transition-property: background-color , color;
+transition-duration: 1s;  
+padding: 1rem;
+display: flex;
+justify-content: center;
+border-radius: 0.8rem;
+position: relative;
+top: 3rem;
+color: white;
+}
+
+
+
+#btn { display: flex;
+    justify-content: center; }
+#surprise:hover {background-color: white ;
+color: black;}
+#paraheading{ font-size: 2rem;
+font-family: 'Baloo Bhaijaan 2' ;}
+/* Successfully applied media queries  */
+ 
+#paraheading {
+    font-weight: bold;
+ }
+
+ body a    { color: inherit; 
+text-decoration: inherit;}
+
+
+
+
+
+    
+
+
+    
